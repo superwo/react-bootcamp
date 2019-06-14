@@ -1,0 +1,4 @@
+.ColorGrid {
+  display: flex;
+  flex-wrap: wrap;
+}
