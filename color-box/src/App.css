@@ -1,0 +1,12 @@
+.App div {
+  margin: 30px;
+}
+
+.App form {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.App input {
+  margin-bottom: 20px;
+}
