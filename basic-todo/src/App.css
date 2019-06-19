@@ -1,0 +1,19 @@
+.App {
+  background-image: linear-gradient(to right, rgb(16, 185, 214), pink);
+  min-height: 100vh;
+  padding-top: 2rem;
+}
+
+input,
+button {
+  padding: 0.5rem;
+  margin-right: 0.5rem;
+}
+
+button {
+  text-transform: uppercase;
+  background-color: tomato;
+  color: white;
+  cursor: pointer;
+  border: 1px solid #ffffff7c;
+}

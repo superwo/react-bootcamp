@@ -1,0 +1,45 @@
+.Todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(250, 117, 93);
+  margin-bottom: 0.3rem;
+  position: relative;
+  z-index: 2;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.Todo::after,
+.Todo::before {
+  position: absolute;
+  content: '';
+  width: 2rem;
+  display: block;
+  height: 100%;
+  top: 0;
+  background-color: inherit;
+  z-index: -1;
+}
+.Todo::before {
+  left: -2rem;
+}
+.Todo::after {
+  right: -2rem;
+}
+
+.Todo i:not(:last-of-type) {
+  margin-right: 1rem;
+}
+
+.Todo-checkbox {
+  display: none;
+}
+.Todo-checkbox:checked + label {
+  color: rgba(255, 255, 255, 0.45);
+  text-shadow: none;
+  text-decoration: line-through;
+}
+
+i {
+  cursor: pointer;
+}

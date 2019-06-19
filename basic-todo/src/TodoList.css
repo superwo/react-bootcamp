@@ -1,0 +1,17 @@
+.TodoList {
+  background-color: tomato;
+  width: 25rem;
+  margin: 0 auto;
+  color: #ffffff;
+  text-shadow: 0px 0px 10px #441e12;
+  padding: 2rem;
+  box-shadow: -12px -12px 69px 0px rgba(0, 0, 0, 0.75);
+}
+.TodoList h1 {
+  margin: 0;
+}
+
+.TodoList > p {
+  border-bottom: 1px solid #ffffff7c;
+  padding-bottom: 1rem;
+}
